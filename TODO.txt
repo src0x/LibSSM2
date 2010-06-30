@@ -1,0 +1,33 @@
+
+
+*) More NUnit tests and test code improvements.
+Good to show usability, find bugs and add/improve error checking
+especially for corner cases.
+
+
+*) Override ToString() for debugging.
+Also enhance and test Equals, GetHashCode methods,
+might be useful in some cases.
+
+
+*) Add more init data functionality.
+Should provide system type strings like "2.0L DOHC" as well as
+easy access to capability flag bits.
+I already did something similar, just need to get it integrated here.
+Not sure yet whether to add members in Ssm2InitResponse packet class
+or create an additional non-packet class.
+
+
+*) Another two subclasses to implement
+Write-Block-Request (B0) and Write-Block-Response (F0).
+Anyone needs these at all? Won't be much work though.
+Are those used for flashing (firmware update)?
+Both command bytes are already included in Ssm2Command enumeration.
+
+
+*) Conditional compilation instructions to only include needed functionality.
+Might be useful to reduce assembly size for limited devices (PocketPC).
+E.g. only include necessary types for sampling (Init, Read-Addresses)
+since most applications on small devices won't do stuff like
+maintenance operations.
+

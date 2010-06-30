@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSSM2", "LibSSM2\LibSSM2.csproj", "{60C26865-ACC4-450B-9030-3978314C7DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibSSM2", "TestLibSSM2\TestLibSSM2.csproj", "{63A997C2-08F6-43F9-B089-5894D2833C28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50A06DA7-873C-49AF-8E19-5E1530D0BA34}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+		SSM2_Protocol.txt = SSM2_Protocol.txt
+		TODO.txt = TODO.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60C26865-ACC4-450B-9030-3978314C7DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C26865-ACC4-450B-9030-3978314C7DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C26865-ACC4-450B-9030-3978314C7DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C26865-ACC4-450B-9030-3978314C7DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A997C2-08F6-43F9-B089-5894D2833C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A997C2-08F6-43F9-B089-5894D2833C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A997C2-08F6-43F9-B089-5894D2833C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A997C2-08F6-43F9-B089-5894D2833C28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TestLibSSM2\TestLibSSM2.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = Mono
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.StandardHeader = $3
+		$3.inheritsSet = GPLv3License
+		description = Types for Subaru SSM2 car diagnostic protocol.
+		version = 1.0
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+# build dirs
+bin/
+obj/
+
+# Monodevelop binary files
+*.pidb
+
+# Monodevelop project userprefs (not important, last edit position, tabs etc.)
+*.userprefs
+
+# NUnit
+test-results/
+TestResult.xml
+
+# Gendarme code analysis results
+*gendarme*.htm*
